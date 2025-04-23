@@ -1,13 +1,17 @@
 [project]
-name = "exercisesuggestions"
+name = "ExerciseSuggestions"
 version = "0.1.0"
 description = "use llms to suggest workouts"
 authors = [
     {name = "tina"}
 ]
 readme = "README.md"
-requires-python = ">=3.11"
+requires-python = ">=3.11,<4.0"
 dependencies = [
+    "langchain (==0.3.24)",
+    "pydantic (>=2.11.3,<3.0.0)",
+    "dotenv (>=0.9.9,<0.10.0)",
+    "langchain-ollama (>=0.3.2,<0.4.0)"
 ]
 
 
